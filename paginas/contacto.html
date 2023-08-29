@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contacto</title>
+
+     <!-- favicon imag en la pestaña -->
+     <link rel="shortcut icon" href="../multimedia/img2.jpeg" type="image/x-icon">
+
+</head>
+
+<body>
+    <header>
+        <nav>
+          <!-- menu de navegacion -->
+          <ul>
+              <li><a href="../index.html">inicio</a></li>
+            
+          </ul>
+    </nav>
+    
+    <!-- css -->
+    <link rel="stylesheet" href="../css/estilos.css">
+
+
+    <section>
+        <!-- formulario -->
+        <form> 
+            <label for="nombre">nombre:</label>
+            <input type="text" required name="nombre">
+    
+            <br>
+    
+            <label for="mail">mail:</label>  
+            <input type="email" required name="mail">
+    
+            <br>
+        
+            <label for="contrasena">contrasena:</label>
+            <input type="password" required name="contrasena" >
+    
+            <br>
+    
+            <label for="mensaje"> mandanos tu mensaje</label>
+            <textarea name="mensaje" cols="30" rows="10"></textarea>
+    
+            <br>
+    
+            <!-- controles de seleccion -->
+            <label for="sexo">elige tu sexo:</label>
+            <input type="radio" name="sexo" value="f"> femenino
+            <input type="radio" name="sexo" value="m">masculino
+            <input type="radio" name="sexo" value="pn"> prefiero no espesificar
+    
+            <br>
+    
+            <!-- casilla de chequeo -->
+            <label for="">acepta terminos y condiciones</label>
+            <input type="checkbox" name="terminos" >
+    
+            <!-- menu desplegable -->
+            <label for="pais">de que pais sos?</label>
+            <select name="pais" >
+                <option value="ARG">argentina</option>
+                <option value="BRA">brasil</option>
+                <option value="URU">uruguay</option>
+            </select>
+            
+            <!-- conjunto de campos -->
+            <fieldset>
+                <legend>dato de envio</legend>
+                <label for="direccion">ingresa tu direccion</label>
+                <input type="text">
+            </fieldset>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+            <input type="button">
+            <input type="reset" value="restaurar">
+            <input type="submit">
+    
+    
+    
+        </form>
+      </section>
+    
+    </header>
+</body>
+</html>
